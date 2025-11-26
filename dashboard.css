@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+header {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    padding: 8px 16px;
+    z-index: 1;
+}
+.me {
+    float: left;
+    text-decoration: none;
+    color: rgb(1, 83, 115);
+    padding: 8px 16px;
+    letter-spacing: 4px;
+}
+li {
+    display: inline;
+}
+ul > li > a {
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(1, 83, 115);
+    padding: 8px 16px; 
+    letter-spacing: 4px;
+}
+a:hover {
+    background-color: rgb(138, 137, 137) ;
+    color: black;
+}
+.stocks {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: rgb(85, 128, 145);
+}
+.app {
+    font-size: 60px;
+    color: rgb(1, 83, 115);
+}
+.row {
+    display: flex;
+}
+.col-25 {
+    width: 25%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.ap {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+    color: white;
+}
+.inc {
+    font-size: 10px;
+    color: rgb(192, 190, 190);
+    padding-bottom: 5px;
+}
+.bg {
+    background-color: black;
+}
+.arrow-1 {
+    color: rgb(1, 116, 1);
+    padding-top: 10px;
+    font-size: 30px;
+}
+.share-1 {
+    color: white;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.share-1:hover {
+    color: green;
+    background-color: rgb(166, 252, 166);
+    cursor: pointer;
+}
+.share-2 {
+    color: white;
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.share-2:hover {
+    color: red;
+    background-color: rgb(253, 161, 161);
+    cursor: pointer;
+}
+.arrow-2 {
+    color: red;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.col-50 {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 50PX;
+}
+.user {
+    color: rgb(1, 83, 115);
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 200px;
+}
+.tom {
+    color: white;
+    letter-spacing: 4px;
+    padding-bottom: 30px;
+}
+.view {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.button {
+    color: black;
+    background-color:  rgb(1, 83, 115);
+    padding: 10px 20px;
+    letter-spacing: 4px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {
+    color: white;
+    background-color: rgb(1, 83, 115);
+}
+.box {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: rgb(1, 83, 115);
+}
+.core {
+    color: white;
+    padding-top: 30px;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.tab {
+    text-align: center;
+    color: white;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.art {
+    color: rgb(1, 83, 115);
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 200px;
+}
+.sin {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-right: 81px;
+    font-size: 20px;
+    line-height: 27px;
+}
+.side {
+    color: rgb(1, 83, 115);
+}
+.bg-1 {
+    text-align: center;
+    background-color: rgb(1, 83, 115);
+}
+.send {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
